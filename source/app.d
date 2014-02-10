@@ -8,7 +8,7 @@ shared static this()
     auto router = makeRoutes();
 
     auto settings = new HTTPServerSettings;
-    settings.port = 8080;
+    settings.port = 8000;
 
     listenHTTP(settings, router);
 }
