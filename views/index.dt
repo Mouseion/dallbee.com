@@ -1,5 +1,10 @@
 extends layout
 
+block title
+    title Index
+
 block body
-    h1 Example page - Home
-    p Hello, World!
+    h1 Example page
+    p Nah
+
+

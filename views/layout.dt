@@ -1,6 +1,6 @@
 !!! 5
 html
     head
-        title Example page
+        block title
     body
         block body

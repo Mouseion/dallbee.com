@@ -1,14 +1,11 @@
 import vibe.d;
-
-void index(HTTPServerRequest req, HTTPServerResponse res)
-{
-    res.render!("index.dt", req);
-}
+import routes;
+//import markd; // Markdown parser - todo
+//import std.utf; // Should really add utf checking.
 
 shared static this()
 {
-    auto router = new URLRouter;
-    router.get("/", &index);
+    auto router = makeRoutes();
 
     auto settings = new HTTPServerSettings;
     settings.port = 8080;
