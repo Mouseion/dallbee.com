@@ -1,0 +1,9 @@
+{
+	"name": "dallbee.com",
+	"description": "A simple vibe.d server application.",
+	"copyright": "Copyright © 2014, dylan",
+	"authors": ["dylan"],
+	"dependencies": {
+		"vibe-d": ">=0.7.17"
+	}
+}
