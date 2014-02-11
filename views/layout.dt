@@ -2,5 +2,8 @@
 html
     head
         block title
+
+        link(rel='stylesheet', href='dist/css/bootstrap.min.css')
+        block styles
     body
         block body

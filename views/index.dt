@@ -1,10 +1,11 @@
 extends layout
 
 block title
-    title Index
+    title D Programming
 
 block body
-    h1 Example page
-    p Nah
-
+    div.container.well
+        div.col-md-8
+            h1 The Den
+            !{content}
 
